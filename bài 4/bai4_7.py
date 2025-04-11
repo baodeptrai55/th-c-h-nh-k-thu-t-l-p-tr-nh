@@ -1,0 +1,5 @@
+print("Đậu Văn Quốc Bảo")
+print("MSSV:235752020710014")
+chuoi = input('Nhap chuoi: ')
+chuoi_moi = ''.join([ki_tu for ki_tu in chuoi if not ki_tu.isdigit()])
+print('Chuoi sau khi loai b chu so:', chuoi_moi)
